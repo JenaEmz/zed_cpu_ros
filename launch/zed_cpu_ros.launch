@@ -2,8 +2,8 @@
 <arg name="config_file_location" default="$(find zed_cpu_ros)/config/SN1267.conf"/>
 <arg name="camera_namespace" default="camera"/>
 <!-- to find your device id, use ls /dev/ and look for the numbder after video -->
-<arg name="device_id" default="4"/>
-<arg name="resolution" default="1"/>
+<arg name="device_id" default="1"/>
+<arg name="resolution" default="3"/>
 <arg name="frame_rate" default="30"/>
 <arg name="show_image" default="false"/>
 <arg name="encoding" default="bgr8"/>
